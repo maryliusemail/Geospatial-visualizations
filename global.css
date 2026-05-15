@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  min-height: 100vh;
+  color: #17211b;
+  background: #fffdf8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: min(100% - 2rem, 90rem);
+  margin: 3rem auto 1.5rem;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 750;
+  line-height: 1.1;
+}
+
+p {
+  color: #526056;
+}
